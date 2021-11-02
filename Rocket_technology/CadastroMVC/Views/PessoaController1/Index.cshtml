@@ -1,0 +1,37 @@
+﻿@model System.Data.DataTable
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Registro</h1>
+
+<!-- Criando uma tabela para mostrar os dados de forma organizada -->
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th>EDITAR</th>
+        <th>EXCLUIR</th>
+    </tr>
+
+    <!--O laço FOR será repetido quantas vezes forem o número de registros recuperados -->
+    @for(int i = 0; i < Model.Rows.Count; i++) 
+    { 
+    
+<tr>
+    <td>@Model.Rows[i][0]</td>
+    <td>@Model.Rows[i][1]</td>
+    <td>@Model.Rows[i][2]</td>
+    <td>@Model.Rows[i][3]</td>
+
+    <td><a href="@Url.Action("Edit", "PessoaController1", new { @id=@Model.Rows[i][0]})">EDITAR</a></td>
+    <td><a href="@Url.Action("Delete", "PessoaController1", new { @id=@Model.Rows[i][0]})">EXCLUIR</a></td>
+</tr>
+    }
+</table>
+
+<a href="@Url.Action("Create", "PessoaController1")">Novo Cadastro</a>
+

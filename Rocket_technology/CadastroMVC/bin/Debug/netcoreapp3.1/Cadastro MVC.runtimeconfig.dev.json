@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\macam\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\macam\\.nuget\\packages"
+    ]
+  }
+}
