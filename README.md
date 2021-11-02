@@ -6,11 +6,11 @@ Projeto da faculdade 4 semestre
 
 # Integrantes
 
-    |     RA    	|                    Nome                   	| Curso 	| Turma 	|
-    |:---------:	|:-----------------------------------------:	|:-----:	|:-----:	|
-    | 920121820 	| Pedro Henrique Gonçalves dos Santos Souza 	|  TADS 	|   4A  	|
-    | 920120103 	|         Vitor Henrique dos Santos         	|  TADS 	|   4A  	|
-    | 920127210 	|        Macmiller Duarte de Andrade        	|  TADS 	|   4A  	|    
+|   RA    |                  Nome                     | Curso | Turma |
+|---------|-------------------------------------------|-------|-------|   
+|920127210|       Macmiller Duarte de Andrade         | TADS  |   4A  |
+|920120103|        Victor Henrique dos Santos         | TADS  |   4A  |
+|920121820| Pedro Henrique Gonçalves dos Santos Souza | TADS  |   4A  |    
 # Descrição do Projeto
       
 - Nós fazemos parte/somos a Rocket Technology, uma empresa que tem como 
